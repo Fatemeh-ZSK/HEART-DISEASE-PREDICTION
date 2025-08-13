@@ -77,7 +77,7 @@ class HeartRecommendationSystem:
                 category = '200-239'
             else:
                 category = '≥240'
-            result.append(f"Cholesterol {value}: {rec['categories'][category]")
+            result.append(f"Cholesterol {value}: {rec['categories'][category]}")
         
         else:  # Categorical features
             value_str = str(value)
